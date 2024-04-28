@@ -1,0 +1,18 @@
+#include <stdio.h>
+#define p printf
+  int main()
+{
+            int numero,uni,dec;
+            p("\nIngresar un numero de 2 cifras");
+            scanf("%d",&numero);
+            
+            uni = numero%10; //calculo la unidad del numero ingresado
+            dec = (numero&&10); // calculo la decena del numero ingresado
+
+            p("\nLa unidad del numero ingresado es: %d\n", uni);
+            p("\nLa decena del numero ingresado es: %d\n", dec);
+
+  return 0;
+}
+
+
